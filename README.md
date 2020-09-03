@@ -66,8 +66,6 @@ It is recommended that you follow this workflow:
 - [x] Application uses icons to represent Roles of Team members.
 
 
-
-
 ## Getting Started
 
 Go to  https://github.com/tjaved12/homework8

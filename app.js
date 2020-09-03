@@ -21,12 +21,12 @@ function getManager(){
         message: "What is your Name?"
     },
     {
-        //asks Name of Team member
+        //asks ID of Team member
         type: "input",
         name: "id",
         message: "What is your Employee ID?"
     },
-//ask for employee emial Id
+//ask for email Id in correct format
  {
         type: "input",
         name: "email",
@@ -54,6 +54,7 @@ function getManager(){
     message: "What is your office phone number",
     
 },
+//Ask if more team members need to be entered
 {
     type: "input",
     name: "team",
@@ -88,6 +89,7 @@ else{
 managerArray(data)
 
 });
+//function to push in data to array
 function managerArray(data){
 const manager = new Manager(data.name,data.id, data.email, data.officeNumber)             
 
@@ -104,12 +106,12 @@ function getEngineer(){
         message: "What is your Name?"
     },
     {
-        //asks Name of Team member
+        //asks id of Team member
         type: "input",
         name: "id",
         message: "What is your Employee ID?"
     },
-//ask for employee emial Id
+//ask for employee email Id
  {
         type: "input",
         name: "email",
@@ -129,7 +131,7 @@ function getEngineer(){
         }
       },
    
-   //asks git ID for the team member
+   //asks git UserID for the team member
    {
     type: "input",
     name: "git",
@@ -167,7 +169,7 @@ else if (data.role =="Engineer"){
 }) 
 }
 engineerArray(data)
-
+//function to push in data to array
 function engineerArray(data){
 const engineer = new Engineer(data.name,data.id, data.email, data.git)             
 employeeArray.push(engineer)
@@ -248,7 +250,7 @@ internArray(data)
 
 
 })}
-//push data into array
+//function to push in data to array
 function internArray(data){
 const intern = new Intern(data.name,data.id, data.email, data.school)             
 employeeArray.push(intern)
@@ -258,7 +260,7 @@ rendermyEmployees()
 };
 //write information into html file
 function rendermyEmployees() {
- fs.writeFileSync("team.html", render(employeeArray),
+ fs.writeFileSync(outputPath, render(employeeArray),
  function (err) {
 
     if (err) {
