@@ -1,5 +1,7 @@
 body{
-    background-image: url("back.png.png");
+    background-image: url("team.png");
+    background-size:1600px 1000px;
+    background-repeat: no-repeat;
     background-color: rgb(231, 228, 228);
   }
   #text{
@@ -7,23 +9,27 @@ body{
   
   }
   .jumbotron{
-    background-color: #eebcb4;
+    background-color: rgb(119, 65, 119);}
+    
+    .text-center{
+    color: #fff
+    
   }
   
   #header {
-       background-image: url("back.png.png");
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      text-align: center;
      padding: 10px;
      width: 100%;
-    background-color:#ca8f84;
+    background-color: rgb(119, 65, 119);
     margin: auto}
 form{
   background-color: #eebcb4}
 
 
 #header{
-    background-color:#ca8f84;
+    background-color: rgb(119, 65, 119);
     
     font-size: 40px;
     color:black
@@ -53,7 +59,7 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
     color: black;
-    background-color: #eebcb4;
+    background-color:  rgb(119, 65, 119);
     font-size: 28px;
 }
 
