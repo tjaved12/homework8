@@ -1,7 +1,10 @@
 # Home Work-8
 
 # Template Engine - Employee Summary
-The project is to build a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. TWhen the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user.
+
+The project must prompt the user to build an engineering team. An engineering
+team consists of a manager, and any number of engineers and interns.
+
 ## Table of Contents
 
 1. [About the Project](#about-the-project)
@@ -17,7 +20,7 @@ The project is to build a software engineering team generator command line appli
 
 ## About The Project
 
-
+The project is to build a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. TWhen the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user.
 
 ## User Stories
 
